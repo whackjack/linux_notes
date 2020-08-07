@@ -5,6 +5,10 @@ Check physical sector size of disk:
 
 `lsblk -o NAME,PHY-SEC`
 
+Or, on FreeNAS
+
+`geom disk list`
+
 Check disk usage:
 
 `df -h /dev/sd*`
